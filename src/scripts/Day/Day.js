@@ -7,7 +7,6 @@ import '../../styles/Day.css';
 const Day = ({ dayName }) => {
     const tasks = [
         { title: 'Task 1', description: 'Description 1', startTime: '10:00 AM', endTime: '11:00 AM' },
-        // Add more tasks as needed
     ];
 
     return (
