@@ -1,0 +1,12 @@
+.container {
+    max-width: 1000px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
