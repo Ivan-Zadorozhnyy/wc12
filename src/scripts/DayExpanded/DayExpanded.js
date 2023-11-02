@@ -8,7 +8,8 @@ const DayExpanded = () => {
         <div className="day-expanded">
             <h3>Day Details</h3>
             {}
-            <NewTaskForm />
+            <NewTaskForm onAddTask={onAddTask} />
+
         </div>
     );
 };
